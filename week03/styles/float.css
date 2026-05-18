@@ -17,7 +17,8 @@ p {
     box-shadow: 0 0 30px #777;
 }
 
-footer {
+.foot footer {
+    clear: both;
     border-top: 1px solid #555;
     padding-top: 5px;
     /* Remove the comment below and observe the results. */
