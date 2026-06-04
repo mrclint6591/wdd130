@@ -52,6 +52,8 @@ nav, p, section, article {
 
 .hero {
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero img {
@@ -71,7 +73,9 @@ h1 {
     color: #fff;
 }
 
-article {
+.hero article {
+    position: absolute;
+    position: static;
     background-color: var(--secondary-color); 
     color: var(--accent2-color); 
     padding: 20px;
