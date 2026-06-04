@@ -71,8 +71,7 @@ h1 {
     color: #fff;
 }
 
-.hero article {
-    position: relative;
+article {
     background-color: var(--secondary-color); 
     color: var(--accent2-color); 
     padding: 20px;
