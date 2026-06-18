@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us / Rafting Project</title>
+    <meta name="description" content=" Contact us at our rafting company for booking, inquiries and trip information. We are here to help you plan your next white water adventure.">
+    <meta name="author" content="Clinton Ejiofor">
+    <link rel="stylesheet" href="styles/rafting.css">
+
+</head>
+<body>
+    <header>
+        <img src="images/rafting-pic.jpg" alt="Whitewater rafting pic" width="150">
+        <nav>
+            <ul>
+               <li><a href="index.html">Home</a></li> 
+                <li><a href="about.html">About Us</a></li> 
+                <li><a href="trips.html">Trips</a></li>
+               <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+       
+
+    </header>
+
+    <main>
+        <section class="address">
+            <h2>White Water Rafting Company</h2>
+            <p>123 Main River Street, kolob, California</p>
+            <p>+1 999 999 9999</p>
+            <p> info@whitewater.com</p>
+        </section>
+
+        <section class="map-form">
+            <div class="map-section">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6502565.951838052!2d-119.306607!3d37.26950555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2sCalifornia%2C%20USA!5e0!3m2!1sen!2sng!4v1781635721924!5m2!1sen!2sng"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            
+            
+            <form class="Contact-form-section">
+                <label for="user_name">Name:</label>
+                <input type="text" id="user_name" name="user_name" placeholder="Your Name" required>
+            
+                <label for="user_email">Email:</label>
+                <input type="text" id="user_email" name="user_email" placeholder="Your Email" required>
+            
+                <fieldset>
+                    <legend> Message <br> Purpose</legend>
+            
+                    <label><input type="radio" name="purpose" value="general" checked>General Inquiry</label>
+                    <label><input type="radio" name="purpose" value="reservation" checked>Reservation
+                        Question</label>
+                    <label><input type="radio" name="purpose" value="suggestion" checked>Website
+                        Suggestion</label>
+                </fieldset>
+            
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Type your message here...."
+                  required></textarea>
+            
+                <label class="checkbox-label">
+                    <input type="checkbox" name="newsletter" value="suscribe"> please suscribe me to the monthly
+                    newsletter
+                </label>
+            
+                <button type="submit">Get in Touch</button>
+            
+            </form>
+        </section>
+        
+       
+
+        <section class="employee-profiles">
+            <h2>We Are Here to Serve You</h2>
+            <div class="profile-grid">
+               <figure>
+                    <img src="images/Employee1.webp" alt="Manager profile picture" width="200">
+                    <figcaption>John Doe - General Manager</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Lead Guide Profile Picture" width="200">
+                    <figcaption>Jane Smith - Lead River Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Employee3.jpg" alt="Booking Agent Profile Picture" width="200">
+                    <figcaption>Alex Jone - Reservations Coordinator</figcaption>
+                </figure>
+            </div>
+       </section>
+
+      
+    </main>
+
+    <footer>
+        <p>&copy; 2026,Whitewater Rafting, Clinton Ejiofor</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook-logo.png" alt="facebook image" width="200">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin-logo.png" alt="linkedin image" width="200">
+            </a>
+
+           <a href="https://instagram.com">
+              <img src="images/instagram-logo.png" alt="instagram image" width="150">
+           </a>
+        </nav>
+
+    </footer>
+    
+</body>
+</html>
